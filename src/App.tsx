@@ -1,10 +1,13 @@
+import Header from './components/header'
+import Dashboard from './components/Dashboard'
 import { GlobalStyle } from './styles/globals';
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Fala dev</h1>
+    <>
+      <Header />
+      <Dashboard />
       <GlobalStyle />
-    </div>
+    </>
   );
 }
